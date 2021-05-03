@@ -237,24 +237,24 @@ SHOW ERRORS;
 
 PAUSE Press ENTER to continue 4 ...	
 
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D01','DREAM','A+',80.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D02','DREAM','A-',25.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D03','DREAM','B+',90.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D04','DREAM','B-',15.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D05','DREAM','AB+',60.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D06','DREAM','AB-',34.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D07','DREAM','O+',200.00,null,'15-MAR-2017');
-insert into Blood_Bank (bloodbank_id,bloodbank_name,blood_group,blood_amount,blood_status,checking_date) values ('D08','DREAM','O-',55.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D01','DREAM','A+',80.00,null,'15-MAR-2017');
+insert into Blood_Bank  values ('D02','DREAM','A-',25.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D03','DREAM','B+',90.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D04','DREAM','B-',15.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D05','DREAM','AB+',60.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D06','DREAM','AB-',34.00,null,'15-MAR-2017');
+insert into Blood_Bank  values ('D07','DREAM','O+',200.00,null,'15-MAR-2017');
+insert into Blood_Bank values ('D08','DREAM','O-',55.00,null,'15-MAR-2017');
 
 	
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D07',1,3,'O+',3.00,'18-JAN-2017');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D01',2,1,'A+',4.00,'17-FEB-2017');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D03',3,4,'B+',6.00,'19-MAR-2017');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D05',4,5,'AB+',2.00,'21-DEC-2016');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D07',5,10,'O+',4.00,'18-NOV-2016');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D05',6,8,'AB+',2.00,'18-JUL-2017');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D08',9,6,'O-',6.00,'13-MAR-2017');
-insert into Transfer_Details (bloodbank_id,donor_id,taker_id,blood_group,blood_amount,transfer_date) values ('D07',10,9,'O+',3.00,'17-AUG-2016');	
+insert into Transfer_Details values ('D07',1,3,'O+',3.00,'18-JAN-2017');
+insert into Transfer_Details values ('D01',2,1,'A+',4.00,'17-FEB-2017');
+insert into Transfer_Details  values ('D03',3,4,'B+',6.00,'19-MAR-2017');
+insert into Transfer_Details values ('D05',4,5,'AB+',2.00,'21-DEC-2016');
+insert into Transfer_Details values ('D07',5,10,'O+',4.00,'18-NOV-2016');
+insert into Transfer_Details values ('D05',6,8,'AB+',2.00,'18-JUL-2017');
+insert into Transfer_Details  values ('D08',9,6,'O-',6.00,'13-MAR-2017');
+insert into Transfer_Details values ('D07',10,9,'O+',3.00,'17-AUG-2016');	
 	
 	
 -----------------------------------------------------------
